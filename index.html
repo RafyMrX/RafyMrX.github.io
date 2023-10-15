@@ -117,7 +117,7 @@ blockquote > #opsL{text-align:right;font-size:11px;font-weight:400;line-height:0
    
    <div id='Content'>
 	   <h4 class="text-center" style="color:orange;">Tekan Gift dulu sayang, kalau pingin dengar OC lagu tinggal tekan tombol dibawah yaa sayang :)</h4>
-	   <a href="https://wesingapp.com/user/609f9f812d2b3189314f/song/aUVv6LsDMLs9vsJJ-selamatulangtahun?lang=en&songid=2128592463&from_page=4510&ws_channel=copylink" class="btn btn-secondary mt-4 mb-4" style="    width: 281px;
+	   <a href="https://wesingapp.com/user/609f9f812d2b3189314f/song/aUVv6LsDMLs9vsJJ-selamatulangtahun?lang=en&songid=2128592463&from_page=4510&ws_channel=copylink" target="_blank" class="btn btn-secondary mt-4 mb-4" style="    width: 281px;
     text-align: center;
     margin: auto;">
 		   Tombol OC lagu</a>
@@ -195,7 +195,7 @@ blockquote > #opsL{text-align:right;font-size:11px;font-weight:400;line-height:0
   
   async function inipesan(){
     var { value: nama } = await swals.fire({
-           title: 'Masukin Nama Kamu', input: 'text',
+           title: 'Isikan Nama Awak', input: 'text',
        });
        if(nama && nama.length < 11){
          hurufdepan = nama.charAt(0);
@@ -204,7 +204,7 @@ blockquote > #opsL{text-align:right;font-size:11px;font-weight:400;line-height:0
          vketikhalo="Hai, " + nama + " ✨";
          mulainama();
          } else {
-           await swals.fire('Ups!', 'Nama tidak boleh kosong atau lebih dari 10 karakter, ya!');inipesan();
+           await swals.fire('Ups!', 'Ehh Nama tidak boleh kosong atau lebih dari 10 karakter, ya!');inipesan();
     }
   }
 
@@ -368,12 +368,12 @@ blockquote > #opsL{text-align:right;font-size:11px;font-weight:400;line-height:0
     }
 
   //Variable Pertanyaan Akhir
-  var tanya = 'Mau Kado Gak Nih? 😶❤️';
-  var opstanya = 'Ayo jawab 😆';
-  var tompositif = 'Mau';
-  var tomnegatif = 'Engga';
+  var tanya = 'Sayang nak Gift tak ? 😶❤️';
+  var opstanya = 'Jom jawab soalan tu 😆';
+  var tompositif = 'Nak';
+  var tomnegatif = 'Tak nak';
     
-    async function menuju(){pesanwhatsapp = "Makasii udah ngucapin " + nama + " ultah ><";await swals.fire('OK!', 'gimana udah dengerin lagu yang udah aku kirim belom ? hehehe!', 'success');}
+    async function menuju(){pesanwhatsapp = "Makasii udah ngucapin " + nama + " ultah ><";await swals.fire('OK!', 'dah dengar oc lagu belum sayang ? hehehe!', 'success');}
 </script>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
